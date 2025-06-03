@@ -23,21 +23,19 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     # Default example code if no file is provided
-    sample = '''int x;
-int y;
-float z;
-input x;
-input y;
-z = x * 2 + (y - 3) / 2 - (6 * (x - 1));
-output z; 
+    sample = '''int wiseTree;
+    wiseTree = 65;
+    int joker;
+    joker = 4;
+    output wiseTree + joker;
     '''
 
     # If a source file is provided, read from it instead of using the sample code
     if args.source_file:
-        if args.source_file.endswith('.au'):
+        if args.source_file.endswith('.aul'):
             source_code = read_source_file(args.source_file)
         else:
-            print("Error: File must have .au extension")
+            print("Error: File must have .aul extension")
             sys.exit(1)
     else:
         source_code = sample

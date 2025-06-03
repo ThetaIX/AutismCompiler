@@ -91,37 +91,35 @@ This is an experimental project in development. Future updates will include:
 ## Getting Started
 
 ### File Extension
-Source code files for the Autism programming language must use the `.au` extension.
+Source code files for the Autism programming language must use the `.aul` extension.
 
 ### Running Programs
 To run a program, use the autism.exe executable. Make sure you're in the directory containing the executable or use the full path:
 
 ```bash
 # If you're in the same directory as autism.exe
-.\autism.exe your_program.au
+.\autism.exe your_program.aul
 
 # If you're running from another directory
-.\path\to\autism.exe your_program.au
+.\path\to\autism.exe your_program.aul
 ```
 
 If no source file is provided, the compiler will run with a default example program that demonstrates basic arithmetic operations.
 
 ### Example Program
-Create a file `example.au` with the following content:
+Create a file `example.aul` with the following content:
 ```
-int x;
-int y;
-float z;
-input x;
-input y;
-z = x * 2 + (y - 3) / 2 - (6 * (x - 1));
-output z;
+int wiseTree;
+wiseTree = 65;
+int joker;
+joker = 4;
+output wiseTree + joker;
 ```
 
 Then run it using:
 ```bash
 # Run the program
-.\path\to\compiler\dist\autism.exe example.au
+.\path\to\compiler\dist\autism.exe example.aul
 ```
 
 ## Contributing
