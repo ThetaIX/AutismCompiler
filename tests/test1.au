@@ -1,0 +1,7 @@
+int x;
+int y;
+float z;
+input x;
+input y;
+z = x * 2 + (y - 3) / 2 - (6 * (x - 1));
+output z; 
