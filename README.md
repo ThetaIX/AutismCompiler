@@ -130,7 +130,7 @@ Feel free to contribute to this project by submitting issues or pull requests.
 |------------|------|------------------|
 | **ThetaIX** | Lead Developer | • Language grammar design<br>• Parser implementation<br>• Interpreter development |
 | **Bear-Creator** | Technical Lead | • Semantic analysis<br>• Lexical analyzer (Lexer)<br>• Core language features |
-| **MankShev** | Documentation Lead | • Technical documentation<br>• Transition and symbol tables<br>• Project documentation |
+| **MankaShev** | Documentation Lead | • Technical documentation<br>• Transition and symbol tables<br>• Project documentation |
 
 ### Special Thanks
 
