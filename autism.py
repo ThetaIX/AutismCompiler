@@ -46,6 +46,6 @@ output z;
     # Parse and interpret the code
     parser = Parser(Lexer())
     rpn = parser.parse(source_code)
-    parser.lexer.run(source_code)
-    print(rpn)
+    # parser.lexer.run(source_code)
+    # print(rpn)
     interpret_rpn(rpn, parser.symtable)

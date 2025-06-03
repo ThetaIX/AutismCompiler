@@ -94,9 +94,14 @@ This is an experimental project in development. Future updates will include:
 Source code files for the Autism programming language must use the `.au` extension.
 
 ### Running Programs
-To run a program, use the autism.exe executable:
+To run a program, use the autism.exe executable. Make sure you're in the directory containing the executable or use the full path:
+
 ```bash
-autism.exe your_program.au
+# If you're in the same directory as autism.exe
+.\autism.exe your_program.au
+
+# If you're running from another directory
+.\path\to\autism.exe your_program.au
 ```
 
 If no source file is provided, the compiler will run with a default example program that demonstrates basic arithmetic operations.
@@ -115,7 +120,8 @@ output z;
 
 Then run it using:
 ```bash
-autism.exe example.au
+# Run the program
+cd .\path\to\compiler\dist\autism.exe example.au
 ```
 
 ## Contributing
