@@ -1,5 +1,5 @@
 ## Autism compiler
-#### experimental first compiler and programming launguage
+#### Experimental first compiler and programming launguage
 - Made with ```Python```
 - Pseudo symbol table without adresses
 - Has 2 types:
