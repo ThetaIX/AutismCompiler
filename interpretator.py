@@ -181,6 +181,7 @@ def interpret_rpn(rpn_list, symtable: SymbolTable):
             # print('Final Symbol Table:')
             # for name, entry in symtable.table.items():
             #     print(name, entry)
+            input("Press any button...")
             break
         
         else:
