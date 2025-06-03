@@ -1,5 +1,5 @@
 <div align="center">
-<img src="/test/photo_2025-06-03_13-06-18.jpg" width="300"  alt="ЛОГО">
+<img src="/tests/photo_2025-06-03_13-06-18.jpg" width="300"  alt="ЛОГО">
 </div>
 
 # Autism Compiler
