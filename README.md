@@ -121,7 +121,7 @@ output z;
 Then run it using:
 ```bash
 # Run the program
-cd .\path\to\compiler\dist\autism.exe example.au
+.\path\to\compiler\dist\autism.exe example.au
 ```
 
 ## Contributing
