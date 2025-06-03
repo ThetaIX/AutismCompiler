@@ -94,7 +94,7 @@ This is an experimental project in development. Future updates will include:
 
 To run a program:
 ```bash
-python autism.py your_program.txt
+python autism.py your_program.au
 ```
 
 If no file is provided, the compiler will run with a default example program.

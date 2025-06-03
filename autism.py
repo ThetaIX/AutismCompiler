@@ -34,7 +34,11 @@ output z;
 
     # If a source file is provided, read from it instead of using the sample code
     if args.source_file:
-        source_code = read_source_file(args.source_file)
+        if args.source_file.endswith('.au'):
+            source_code = read_source_file(args.source_file)
+        else:
+            print("Error: File must have .au extension")
+            sys.exit(1)
     else:
         source_code = sample
         print("No source file provided. Running with example code...")
