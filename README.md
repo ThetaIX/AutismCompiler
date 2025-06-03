@@ -85,20 +85,53 @@ while (x < 10) {
 ## Project Status
 
 This is an experimental project in development. Future updates will include:
-- Detailed language documentation
 - Formal grammar specification
 - More data types and features
-- Examples of usage
 
 ## Getting Started
 
-To run a program:
+### File Extension
+Source code files for the Autism programming language must use the `.au` extension.
+
+### Running Programs
+To run a program, use the autism.exe executable:
 ```bash
-python autism.py your_program.au
+autism.exe your_program.au
 ```
 
-If no file is provided, the compiler will run with a default example program.
+If no source file is provided, the compiler will run with a default example program that demonstrates basic arithmetic operations.
+
+### Example Program
+Create a file `example.au` with the following content:
+```
+int x;
+int y;
+float z;
+input x;
+input y;
+z = x * 2 + (y - 3) / 2 - (6 * (x - 1));
+output z;
+```
+
+Then run it using:
+```bash
+autism.exe example.au
+```
 
 ## Contributing
 
 Feel free to contribute to this project by submitting issues or pull requests.
+
+## Contributors
+
+### Core Team
+
+| Contributor | Role | Responsibilities |
+|------------|------|------------------|
+| **ThetaIX** | Lead Developer | • Language grammar design<br>• Parser implementation<br>• Interpreter development |
+| **Bear-Creator** | Technical Lead | • Semantic analysis<br>• Lexical analyzer (Lexer)<br>• Core language features |
+| **MankShev** | Documentation Lead | • Technical documentation<br>• Transition and symbol tables<br>• Project documentation |
+
+### Special Thanks
+
+Thanks to everyone who has contributed to making this project possible. If you'd like to contribute, please check our [Contributing](#contributing) section above.
