@@ -2,9 +2,9 @@
 <img src="/tests/photo_2025-06-03_13-06-18.jpg" width="300"  alt="ЛОГО">
 </div>
 
-# Autism Compiler
+# Autism Interpreter
 
-A simple experimental compiler and programming language implementation.
+A simple experimental interpreter and programming language implementation.
 
 <div align="center">
 <img src="https://static.wikia.nocookie.net/the-curse-of-the-wise-tree/images/e/e4/Mudroe-tainstvennoe-derevo-mem-25.jpg/revision/latest?cb=20230102165328&path-prefix=ru" width="900" height="120" alt="МУДРЫЙ ДУБ">
@@ -120,7 +120,7 @@ To run a program, use the autism.exe executable. Make sure you're in the directo
 .\path\to\autism.exe your_program.aul
 ```
 
-If no source file is provided, the compiler will run with a default example program that demonstrates basic arithmetic operations.
+If no source file is provided, the interpreter will run with a default example program that demonstrates basic arithmetic operations.
 
 ### Example Program
 
@@ -140,7 +140,7 @@ output wiseTree + joker;
 Then run it using:
 ```bash
 # Run the program
-.\path\to\compiler\dist\autism.exe example.aul
+.\path\to\interpreter\dist\autism.exe example.aul
 ```
 
 ## Contributing
